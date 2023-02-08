@@ -1,0 +1,91 @@
+﻿using ExemploFundamentos.Common.Models;
+using System;
+
+class Programa
+{    static void Main(string[] args)
+    {
+
+        List<string> listaString = new List<string>();
+
+        listaString.Add("SP");
+        listaString.Add("RJ");
+        listaString.Add("MG");
+        listaString.Add("ES");
+        listaString.Add("PR");
+        listaString.Add("SC");
+        listaString.Add("RS");
+        listaString.Add("MS");
+        listaString.Add("MT");
+        listaString.Add("GO");
+        listaString.Add("DF");
+        listaString.Add("BA");
+        listaString.Add("SE");
+        listaString.Add("AL");
+        listaString.Add("PE");
+        listaString.Add("PB");
+        listaString.Add("RN");
+        listaString.Add("CE");
+        listaString.Add("PI");
+        listaString.Add("MA");
+        listaString.Add("PA");
+        listaString.Add("AM");
+        listaString.Add("AP");
+        listaString.Add("RR");
+        listaString.Add("AC");
+
+        for(int i = 0; i < listaString.Count; i++)
+        {
+            Console.WriteLine($"Posição Nº {i+1} - {listaString[i]}");
+        }
+
+        Console.WriteLine($"Items {listaString.Count} - Capacidade {listaString.Capacity}");
+
+        // int[] arrayInteiros = new int[3];
+
+        // for(int i = 0; i < arrayInteiros.Length; i++)
+        // {
+        //     Console.WriteLine("Entre com um número");
+        //     arrayInteiros[i] = int.TryParse(Console.ReadLine(), out int n) ? n : 0;
+        // }
+        // Console.WriteLine("Números digitados");
+        // foreach (var item in arrayInteiros)
+        // {
+        //     Console.WriteLine(item);
+        // }
+
+        // Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+        
+
+
+
+
+        // Console.WriteLine("Hello, World!");
+        // Pessoa pessoa = new();
+        // Calculadora calc = new();
+        // pessoa.Nome = "Vinicius";
+        // pessoa.Idade = 29;
+        // pessoa.Apresentar();
+
+
+
+        // calc.Somar(10, 30);
+        // calc.Diminuir(10, 30);
+        // calc.Multiplicar(10, 30);
+        // calc.Dividir(10, 30);
+        // calc.Potencia(2, 8);
+        // calc.Seno(18);
+        // calc.Cosseno(18);
+        // calc.Tangente(18);
+        // calc.RaizQuadrada(144);
+        
+        // Console.WriteLine("\nEntre com um número para a taboada");
+        // int numero = int.TryParse(Console.ReadLine(), out int n) ? n : 0;
+        // for (int i = 0; i <= 10; i++)
+        // {
+        //     Console.WriteLine($"{numero} * {i} = {numero * i}");
+        // }
+        
+
+        Console.ReadLine();
+    }
+}
